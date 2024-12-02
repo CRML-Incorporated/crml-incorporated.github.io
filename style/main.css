@@ -1,0 +1,9 @@
+:root{
+    --text-color-default: white;
+    --background-default: black;
+}
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: var(--background-default);
+    color: var(--text-color-default)
+}
