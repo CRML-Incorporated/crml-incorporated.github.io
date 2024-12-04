@@ -41,8 +41,11 @@ th, td{
 .window-content{
     text-align: right;
     border: 4px solid #ffa500;
-    height: 300px;
-    padding: 0px 25px;
+    
+    padding: 0px 25px 25px 25px;
+}
+.window-content table{
+    margin-top: 25px;
 }
 
 .bg {
