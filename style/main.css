@@ -37,6 +37,7 @@ th, td{
     margin-right: 50px;
     margin-top: 25px;
     background-color: #00000066;
+    animation: intro 0.2s ease-in-out;
 }
 .window-content{
     text-align: right;
@@ -84,5 +85,16 @@ th, td{
     }
     100% {
         transform: translate(60%, -75%);
+    }
+}
+@keyframes intro {
+    0% {
+        transform: scale(0,0.2);
+    }
+    50%{
+        transform: scale(1,0.2);
+    }
+    100% {
+        transform: scale(1,1);
     }
 }
