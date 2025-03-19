@@ -37,12 +37,28 @@ th, td{
     margin-right: 50px;
     margin-top: 25px;
     background-color: #00000066;
-    animation: intro 0.2s ease-in-out;
+    animation: intro 0.25s ease-in-out;
 }
+
 .window-content{
     text-align: right;
     border: 4px solid #ffa500;
     padding: 0px 25px 25px 25px;
+}
+.window-main-reports{
+    color: #ffa500;
+    margin: 25px;
+    max-width: 1024px;
+    background-color: #00000066;
+    animation: intro 0.25s ease-in-out;
+}
+.window-reports{
+    text-align: left;
+    border: 4px solid #ffa500;
+    padding: 0px 25px 25px 25px;
+}
+.window-reports h1{
+    text-align: center;
 }
 .window-content table{
     margin-top: 25px;
@@ -77,6 +93,21 @@ th, td{
     background: rgba(20, 20, 20, 1);
     animation: animate 5s linear infinite;
     opacity: 0.8;
+}
+button{
+    cursor: pointer;
+    font-family: 'silkscreennormal';
+    padding: 10px;
+    border: 2px solid #ffa500;
+    background: transparent;
+    color: orange;
+}
+
+button:hover{
+    background: #FFA50022;
+}
+a{
+    cursor: pointer;
 }
 
 @keyframes animate {
